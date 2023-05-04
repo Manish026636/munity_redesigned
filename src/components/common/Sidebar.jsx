@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col h-full w-48 bg-[#000000] opacity-80 text-gray-100">
       <div className="py-4 px-6">
-        <h2 className="text-xs pb-2 text-center font-medium">Committee</h2>
+        <h2 className="text-xs pb-2 text-center font-medium pt-6">Committee</h2>
         <h2 className="text-xl text-center font-bold text-[#2AD16D]">UNHRC</h2>
         <h2 className="text-xs pb-2 text-center pt-2 font-medium">Session ID</h2>
         <h2 className="text-xl text-center text-[#74C5FF] font-bold"># 040523-2</h2>
