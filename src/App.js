@@ -1,10 +1,12 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import CP_Dashboard from './components/CP_Dashboard';
+import Navbar from './components/common/Navbar';
 
 function App() {
   return (
     <>
     <Navbar/>
+    <CP_Dashboard/>
     </>
   );
 }

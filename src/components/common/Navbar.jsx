@@ -11,10 +11,10 @@ function HamburgerMenu() {
     <header className="pb-6 bg-white lg:pb-0">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 ">
             <a href="/" title="" className="flex">
               <img
-                className="w-auto h-12 lg:h-10"
+                className="w-auto mt-4 sm:mt-0 md:mt-0 h-12 lg:h-10"
                 src="Mu.png"
                 alt=""
               />
