@@ -2,6 +2,8 @@ import React from 'react'
 import PieChart from './Piechart'
 
 const RC_Result = () => {
+    const data = [12, 24, 4];
+
     return (
         <div>
             <div className="bg-gray-600 mt-1 h-20 border-t-8 border-[#74C5FF] rounded-md w-full">
@@ -20,17 +22,17 @@ const RC_Result = () => {
 
                     <h1 className='text-center bg text-xl font-bold text-gray-500 pt-4 '>Present & Voting</h1>
                     <div className='flex justify-center'>
-                        <button className='bg-[#2194FF] text-center mt-2 px-10 rounded-lg text-white text-2xl font-bold py-2'>12</button>
+                        <button className='bg-[#2194FF] text-center mt-2 px-10 rounded-lg text-white text-2xl font-bold py-2'>24</button>
 
                     </div>
                     <h1 className='text-center bg text-xl font-bold text-gray-500 pt-4 '>Absent</h1>
                     <div className='flex justify-center'>
-                        <button className='bg-[#838383] text-center mt-2 px-10 rounded-lg text-white text-2xl font-bold py-2'>05</button>
+                        <button className='bg-[#838383] text-center mt-2 px-10 rounded-lg text-white text-2xl font-bold py-2'>04</button>
 
                     </div>
                     
                 </div>
-                <PieChart/>
+                <PieChart data={data}/>
             </div>
 
         </div>

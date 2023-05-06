@@ -29,10 +29,10 @@ const Table = () => {
           <table className="text-center   table-auto w-full ">
             <thead className="sticky top-0 bg-[#2194FF] text-gray-800">
               <tr>
-                <th className="px-2 text-white  py-2">ID</th>
-                <th className="px-2  text-white   py-2">Country Flag</th>
-                <th className="px-2  text-white py-2">Country Name</th>
-                <th className="px-2  text-white py-2">Name</th>
+                <th className="px-2 border text-white  py-2">ID</th>
+                <th className="px-2 border text-white   py-2">Country Flag</th>
+                <th className="px-2 border text-white py-2">Country Name</th>
+                <th className="px-2 border text-white py-2">Name</th>
                 <th  colspan="2" className="px-2  text-white py-2">Action</th>
               </tr>
             </thead>
