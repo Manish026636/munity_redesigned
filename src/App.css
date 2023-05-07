@@ -1,0 +1,16 @@
+body,html{
+  background-color: #f4f6f9;
+  
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* VotingModal */
+
+.scrolla {
+  
+  overflow-y: auto;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
