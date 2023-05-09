@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-full w-48 bg-[#000000] opacity-80 text-gray-100 ">
+    <div className="flex hidden sm:block flex-col justify-center items-center h-full w-48 bg-[#000000] opacity-80 text-gray-100 ">
       <div className="py-4 px-6">
         <h2 className="text-xs pb-2 text-center font-medium pt-6">Committee</h2>
         <h2 className="text-xl text-center font-bold text-[#2AD16D]">UNHRC</h2>
