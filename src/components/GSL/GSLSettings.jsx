@@ -1,28 +1,29 @@
 import React from 'react'
+import { RiAddLine, RiTimeLine } from 'react-icons/ri';
 
 const GSLSettings = () => {
 
     return (
         <div>
-            <div className="bg-gray-600 mt-6 h-20 border-t-8 border-[#74C5FF] rounded-md w-5/6">
+            <div className="bg-gray-600 mt-6 h-20 border-t-8 border-[#74C5FF] rounded-md w-full">
                 <h2 className="text-3xl text-center text-white font-bold py-4 mb-1">
-                   GSL Settings
+                    GSL Settings
                 </h2>
             </div>
-            <div className=' grid grid-cols-1  justify-center w-5/6 h-[23vh] border-4 border-[#ABABAB] mt-1 rounded-md'>
-                <div className=''>
-                    <h1 className='text-center text-xl font-bold text-gray-500 pt-4'>Present</h1>
-                    <div className='flex justify-center'>
-                        <button className='bg-[#74C5FF] text-center mt-2 px-10 rounded-lg text-white text-2xl font-bold py-2'>12</button>
+            <div className=' grid grid-cols-1  justify-center w-full h-[21vh] border-4 border-[#ABABAB] mt-1 rounded-md'>
+                <div className="flex flex-col mt-6 items-center space-y-4">
+                    <button className="bg-[#F4F6F9] border border-[#959595] rounded-lg hover:bg-blue-600 text-gray-500 font-bold py-3 px-6 flex items-center">
+                        <RiAddLine className="inline-block text-[#3DBFDB]  mr-1 text-xl" />
+                        Add Delegates
+                    </button>
 
-                    </div>
-
-
-                    
-                    
+                    <button className="bg-[#F4F6F9] border border-[#959595] rounded-lg hover:bg-blue-600 text-gray-500 font-bold py-3 px-6 flex items-center">
+                        <RiTimeLine className="inline-block text-[#3DBFDB]  mr-1 text-xl" />
+                        Set GSL Time
+                    </button>
                 </div>
             </div>
-            
+
 
         </div>
     )

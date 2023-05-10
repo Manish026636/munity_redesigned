@@ -1,6 +1,6 @@
 import React from 'react'
-import RCTable from './RC_Table';
-import RCResult from './RC_Result';
+import RCTable from './RCTable';
+import RCResult from './RCResult';
 const RC_Dashboard = () => {
     return (
         <div>
