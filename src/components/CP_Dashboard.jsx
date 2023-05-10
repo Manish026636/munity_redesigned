@@ -4,6 +4,7 @@ import ComitDetail from "./ComitDetail";
 import RC_Dashboard from "./RollCall/RC_Dashboard";
 import MobileBar from "./common/MobileBar";
 import GSLDashbaord from "./GSL/GSLDashbaord";
+import McausDashboard from "./MCAUS/McausDashboard";
 const CP_Dashboard = () => {
 
   return (
@@ -12,7 +13,7 @@ const CP_Dashboard = () => {
     <div className="flex h-screen bg-[#f4f6f9]">
       <Sidebar/>
       <main className="flex-1  ">
-        <GSLDashbaord/>
+        <McausDashboard/>
       </main>
     </div>
     </>
