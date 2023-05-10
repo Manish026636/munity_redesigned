@@ -14,8 +14,8 @@ const GSLTable = () => {
       countryName: "India",
       name: "Akash Yadav",
       reserveTime: "10s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 2,
@@ -29,8 +29,8 @@ const GSLTable = () => {
       countryName: "Russia",
       name: "Harsh Kumar",
       reserveTime: "19s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 3,
@@ -44,8 +44,8 @@ const GSLTable = () => {
       countryName: "USA",
       name: "Manish Yadav",
       reserveTime: "30s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 4,
@@ -59,8 +59,8 @@ const GSLTable = () => {
       countryName: "France",
       name: "Juniper",
       reserveTime: "24s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 5,
@@ -74,8 +74,8 @@ const GSLTable = () => {
       countryName: "India",
       name: "Akash Yadav",
       reserveTime: "13s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 6,
@@ -89,8 +89,8 @@ const GSLTable = () => {
       countryName: "Russia",
       name: "Harsh Kumar",
       reserveTime: "20s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 7,
@@ -104,8 +104,8 @@ const GSLTable = () => {
       countryName: "USA",
       name: "Manish Yadav",
       reserveTime: "32s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 8,
@@ -119,8 +119,8 @@ const GSLTable = () => {
       countryName: "France",
       name: "Juniper",
       reserveTime: "08s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 9,
@@ -134,8 +134,8 @@ const GSLTable = () => {
       countryName: "Russia",
       name: "Harsh Kumar",
       reserveTime: "20s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 10,
@@ -149,8 +149,8 @@ const GSLTable = () => {
       countryName: "USA",
       name: "Manish Yadav",
       reserveTime: "32s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
     {
       id: 11,
@@ -164,8 +164,8 @@ const GSLTable = () => {
       countryName: "France",
       name: "Juniper",
       reserveTime: "08s",
-      action1: "P",
-      action2: "PV",
+       action: "Start"
+       
     },
   ];
   return (
@@ -237,7 +237,7 @@ const GSLTable = () => {
                   </td>
                   <td className="border py-2">
                     <button className="bg-[#62BDFF] hover:bg-blue-700 text-white font-bold text-lg py-2 px-8 rounded-lg">
-                      {item.action1}
+                      {item.action}
                     </button>
                   </td>
                   
