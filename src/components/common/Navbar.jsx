@@ -49,19 +49,19 @@ function HamburgerMenu() {
 
           <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
             <a href="/" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
-              Features
+              Home
             </a>
 
             <a href="/" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
-              Solutions
+              Sessions
             </a>
 
             <a href="/" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
-              Resources
+              About
             </a>
 
             <a href="/" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">
-              Pricing
+              Contact
             </a>
           </div>
 
@@ -87,7 +87,7 @@ function HamburgerMenu() {
                 title=""
                 className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
-                Features
+                Home
               </a>
 
               <a
@@ -95,7 +95,7 @@ function HamburgerMenu() {
                 title=""
                 className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
-                Solutions
+                Sessions
               </a>
 
               <a
@@ -103,7 +103,7 @@ function HamburgerMenu() {
                 title=""
                 className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
-                Resources
+                About
               </a>
 
               <a
@@ -111,7 +111,7 @@ function HamburgerMenu() {
                 title=""
                 className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
-                Pricing
+                Contact
               </a>
             </div>
           </div>

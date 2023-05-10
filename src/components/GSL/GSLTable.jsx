@@ -240,11 +240,7 @@ const GSLTable = () => {
                       {item.action1}
                     </button>
                   </td>
-                  <td className="border py-2">
-                    <button className="bg-[#3DBFDB] hover:bg-blue-700 text-white font-bold text-lg py-2 px-8 rounded-lg">
-                      {item.action2}
-                    </button>
-                  </td>
+                  
                 </tr>
               ))}
             </tbody>
