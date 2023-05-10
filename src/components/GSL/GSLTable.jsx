@@ -15,7 +15,8 @@ const GSLTable = () => {
       countryName: "India",
       name: "Akash Yadav",
       reserveTime: "10s",
-       action: "Start"
+       action: "Start",
+      
        
     },
     {
@@ -215,6 +216,7 @@ const GSLTable = () => {
                       {item.action}
                     </button>
                   </td>
+                 
                   
                 </tr>
               ))}

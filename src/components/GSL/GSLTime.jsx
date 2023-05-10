@@ -8,18 +8,18 @@ const GSLTime = () => {
           Timer
         </h2>
       </div>
-      <div className=" grid grid-cols-1  justify-center w-full  h-[28vh] border-4 border-[#ABABAB] mt-1 rounded-md">
+      <div className=" grid grid-cols-1  justify-center w-full  h-auto py-4 border-4 border-[#ABABAB] mt-1 rounded-md">
         <div className="">
-          <h1 className="text-center text-lg font-bold text-gray-500 pt-4">
+          <h1 className="text-center text-lg font-bold text-gray-500 pt-2">
             Total Time
           </h1>
-          <h1 className="text-center text-xl  font-bold text-purple-500">
+          <h1 className="text-center text-xl pt-2  font-bold text-purple-500">
           20m : 00s / 20m : 00s
           </h1>
-          <h1 className="text-center text-lg font-bold text-[#505050] opacity-80 pt-1">
+          <h1 className="text-center text-lg font-bold text-[#505050] opacity-80 pt-3">
           Per Speaker Time 
           </h1>
-          <h1 className="text-center text-3xl  font-bold text-[#2194FF] ">
+          <h1 className="text-center text-3xl pt-3  font-bold text-[#2194FF] ">
           00m : 40s / 01m : 00s
           </h1>
       <div className='flex justify-center items-center gap-4 mt-5'>

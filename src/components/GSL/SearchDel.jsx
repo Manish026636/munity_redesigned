@@ -4,7 +4,7 @@ const SearchDel = () => {
   return (
     <div>
     <div className="mt-3" >
-    <div class="flex items-center w-4/5 lg:w-2/3 h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+    <div class="flex items-center w-4/5 lg:w-3/4 h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
       <div class="grid place-items-center h-full w-12 text-gray-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
