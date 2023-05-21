@@ -8,7 +8,7 @@ const CP_Dashboard = () => {
     <div className="flex h-screen bg-[#f4f6f9]">
       <Sidebar />
       <main className="flex-1  ">
-        <RC_Dashboard/>
+        <ComitDetail/>
       </main>
     </div>
   );

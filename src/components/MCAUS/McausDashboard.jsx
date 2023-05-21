@@ -1,6 +1,6 @@
 import React from 'react'
-import MotionForm from './MotionForm'
-import ProposedTopics from './ProposedTopics'
+import MotionForm from './Motions/MotionForm'
+import ProposedTopics from './Motions/ProposedTopics'
 
 const McausDashboard = () => {
   return (
