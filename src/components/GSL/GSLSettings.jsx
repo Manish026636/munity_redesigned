@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiAddLine, RiTimeLine } from 'react-icons/ri';
-import AddDelegate from './AddDelegate';
+import AddDelegate from './AddDelegate/AddDelegate';
 import SetTime from './SetTime';
 
 const GSLSettings = () => {

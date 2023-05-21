@@ -5,6 +5,7 @@ import RC_Dashboard from "./RollCall/RC_Dashboard";
 import MobileBar from "./common/MobileBar";
 import GSLDashbaord from "./GSL/GSLDashbaord";
 import McausDashboard from "./MCAUS/McausDashboard";
+import Translate from "./common/Translate";
 const CP_Dashboard = () => {
 
   return (
@@ -14,6 +15,7 @@ const CP_Dashboard = () => {
       <Sidebar/>
       <main className="flex-1  ">
         <McausDashboard/>
+     
       </main>
     </div>
     </>
